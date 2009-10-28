@@ -8,7 +8,7 @@ import org.junit.Assert;
 public final class Asserts extends Assert {
 
     /**
-     * Prevent instantiation
+     * Prevent instantiation.
      */
     private Asserts() {
         
