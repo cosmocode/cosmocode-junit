@@ -33,4 +33,11 @@ public final class Asserts extends Assert {
         }
     }
     
+    public static void assertNotEquals(Object expected, Object actual) {
+        if (expected == null) return;
+        if (expected.equals(actual)) {
+            fail("expected not equals:<" + expected + "> was :<" + actual + ">");
+        }
+    }
+    
 }
