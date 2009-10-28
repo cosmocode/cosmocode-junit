@@ -2,6 +2,7 @@ package de.cosmocode.junit;
 
 import java.util.regex.Pattern;
 
+import org.apache.commons.lang.StringUtils;
 import org.junit.Assert;
 
 public final class Asserts extends Assert {
@@ -38,6 +39,14 @@ public final class Asserts extends Assert {
         if (expected.equals(actual)) {
             fail("expected not equals:<" + expected + "> was :<" + actual + ">");
         }
+    }
+    
+    public static void assertEmpty(String s) {
+        assertTrue("expected empty but was :<" + s + ">", StringUtils.isEmpty(s));
+    }
+    
+    public static void assertBlank(String s) {
+        assertTrue("expected blank but was :<" + s + ">", StringUtils.isBlank(s));
     }
     
 }
