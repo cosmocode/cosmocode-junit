@@ -11,7 +11,7 @@ package de.cosmocode;
  *   and are therefore immutable (in case of primitives).
  * </p>
  *
- * @author Willi Schoenborn <schoenborn@cosmocode.de>
+ * @author Willi Schoenborn
  * @param <T> the type an instance of this class is able to hold a value from
  */
 public final class Holder<T> {
