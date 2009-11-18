@@ -36,7 +36,8 @@ public final class Asserts extends Assert {
         } else if (input == null) {
             fail("Input must not be null");
         } else {
-            assertTrue(input + " doesn't match " + pattern.pattern(), pattern.matcher(input.toString()).matches());
+            final boolean matches = pattern.matcher(input.toString()).matches();
+            assertTrue("'" + input + "' doesn't match '" + pattern.pattern() + "'", matches);
         }
     }
     
@@ -56,7 +57,8 @@ public final class Asserts extends Assert {
         } else if (input == null) {
             fail("Input must not be null");
         } else {
-            assertFalse(input + " matches " + pattern.pattern(), pattern.matcher(input.toString()).matches());
+            final boolean matches = pattern.matcher(input.toString()).matches();
+            assertFalse("'" + input + "' matches '" + pattern.pattern() + "'", matches);
         }
     }
     
