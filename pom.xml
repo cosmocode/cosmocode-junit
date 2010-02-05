@@ -13,7 +13,7 @@
   </parent>
   <scm>
   	<url>http://commons.svn.cosmocode.de/junit</url>
-    <developerConnection>scm:svn:http://commons.svn.cosmocode.de/cosmocode-junit/trunk</developerConnection>
+    <developerConnection>scm:svn:https://commons.svn.cosmocode.de/cosmocode-junit/trunk</developerConnection>
   </scm>
   <dependencies>
     <dependency>
