@@ -12,7 +12,6 @@
     <version>1.5.2</version>
   </parent>
   <scm>
-  	<url>http://commons.svn.cosmocode.de/junit</url>
     <developerConnection>scm:svn:https://commons.svn.cosmocode.de/cosmocode-junit/trunk</developerConnection>
   </scm>
   <dependencies>
@@ -33,5 +32,10 @@
       <groupId>com.google.collections</groupId>
       <artifactId>google-collections</artifactId>
     </dependency>
+    <dependency>
+	    <groupId>de.cosmocode</groupId>
+	    <artifactId>log4j-config</artifactId>
+	    <version>1.0.2</version>
+	</dependency>
   </dependencies>
 </project>
