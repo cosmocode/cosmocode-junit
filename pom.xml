@@ -8,7 +8,7 @@
   <name>CosmoCode JUnit</name>
   <groupId>de.cosmocode</groupId>
   <artifactId>cosmocode-junit</artifactId>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.5.0</version>
   <packaging>jar</packaging>
   <scm>
     <developerConnection>scm:git:git@github.com:cosmocode/${project.artifactId}.git</developerConnection>
